@@ -44,4 +44,8 @@
   <Target Name="BuildTarget">
     <Message Text="FacebookSdks" />
   </Target>
+
+  <Target Name="Pack">
+    <Message Text="FacebookSdks" />
+  </Target>
 </Project>

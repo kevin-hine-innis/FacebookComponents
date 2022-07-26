@@ -69,4 +69,7 @@
     <ProjectReference Include="..\CoreKit\CoreKit.csproj" PrivateAssets="None" />
   </ItemGroup>
 
+  <Target Name="Pack">
+    <Message Text="ShareKit" />
+  </Target>
 </Project>

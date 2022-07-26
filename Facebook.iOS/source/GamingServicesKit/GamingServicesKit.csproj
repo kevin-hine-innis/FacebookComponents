@@ -71,4 +71,7 @@
     <ProjectReference Include="..\ShareKit\ShareKit.csproj" PrivateAssets="None" />
   </ItemGroup>
 
+  <Target Name="Pack">
+    <Message Text="GamingServicesKit" />
+  </Target>
 </Project>

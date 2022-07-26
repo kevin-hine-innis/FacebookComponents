@@ -72,4 +72,7 @@
     <ObjcBindingApiDefinition Include="Enums.cs" />
   </ItemGroup>
 
+  <Target Name="Pack">
+    <Message Text="CoreKit" />
+  </Target>
 </Project>

@@ -68,4 +68,7 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
 
+  <Target Name="Pack">
+    <Message Text="AudienceNetwork" />
+  </Target>
 </Project>
