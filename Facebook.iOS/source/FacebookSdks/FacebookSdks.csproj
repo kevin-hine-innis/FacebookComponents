@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project>
+<Project DefaultTargets="BuildTarget">
   <PropertyGroup>
     <TargetFrameworks>xamarin.ios11;net6.0-ios</TargetFrameworks>
     <NoNFloatUsing Condition="'$(TargetFramework)' == 'xamarin.ios11'">true</NoNFloatUsing>
@@ -41,4 +41,7 @@
     <ProjectReference Include="..\GamingServicesKit\GamingServicesKit.csproj" PrivateAssets="None" />
   </ItemGroup>
 
+  <Target Name="BuildTarget">
+    <Message Text="FacebookSdks" />
+  </Target>
 </Project>
