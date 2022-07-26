@@ -9,7 +9,7 @@
     <OutputType>Exe</OutputType>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
-    <SupportedOSPlatformVersion>10.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>11.0</SupportedOSPlatformVersion>
     <AssemblyName>HelloFacebook</AssemblyName>
     <RootNamespace>HelloFacebook</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -61,6 +61,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Facebook.iOS" Version="12.2.0.1" />
+    <PackageReference Include="Xamarin.Facebook.iOS" Version="14.1.0.0" />
   </ItemGroup>
 </Project>
