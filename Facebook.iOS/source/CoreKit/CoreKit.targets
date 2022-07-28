@@ -7,13 +7,13 @@
 	</PropertyGroup>
 
 	<ItemGroup Condition="('$(OutputType)' != 'Library' OR '$(IsAppExtension)' == 'True') AND ('$(TargetFrameworks)' == '' AND '$(TargetFramework)' == '')">
-    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\xamarinios10\Facebook.CoreKit.resources\FBSDKCoreKit.xcframework">
+    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\net6.0-ios15.4\Facebook.CoreKit.resources\FBSDKCoreKit.xcframework">
       <_Id>$(_FBSDKCoreKitId)</_Id>
     </_NativeReference>
-    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\xamarinios10\Facebook.CoreKit.resources\FBAEMKit.xcframework">
+    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\net6.0-ios15.4\Facebook.CoreKit.resources\FBAEMKit.xcframework">
       <_Id>$(_FBAEMKitId)</_Id>
     </_NativeReference>
-    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\xamarinios10\Facebook.CoreKit.resources\FBSDKCoreKit_Basics.xcframework">
+    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\net6.0-ios15.4\Facebook.CoreKit.resources\FBSDKCoreKit_Basics.xcframework">
       <_Id>$(_FBSDKCoreKit_BasicsId)</_Id>
     </_NativeReference>
   </ItemGroup>

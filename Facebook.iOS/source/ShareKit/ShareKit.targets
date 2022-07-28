@@ -5,7 +5,7 @@
 	</PropertyGroup>
 
 	<ItemGroup Condition="('$(OutputType)' != 'Library' OR '$(IsAppExtension)' == 'True') AND ('$(TargetFrameworks)' == '' AND '$(TargetFramework)' == '')">
-    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\xamarinios10\Facebook.ShareKit.resources\FBSDKShareKit.xcframework">
+    <_NativeReference Include="$(MSBuildThisFileDirectory)..\lib\net6.0-ios15.4\Facebook.ShareKit.resources\FBSDKShareKit.xcframework">
       <_Id>$(_FBSDKShareKitId)</_Id>
     </_NativeReference>
   </ItemGroup>
